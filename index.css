@@ -1,0 +1,252 @@
+@font-face{
+  font-family:"Simple-Light";
+  src:url("https://Racheljin7.github.io/HTML-Markup/SimpleOTF/Simple-Light.otf");
+}
+
+@font-face{
+  font-family:"Simple-Bold";
+  src:url("https://Racheljin7.github.io/HTML-Markup/SimpleOTF/Simple-Bold.otf");
+}
+
+
+body {
+  background-color: #FFF8DC;
+}
+.frame{
+  position: absolute;
+  left: 110vh;
+  top:12vh;
+  width: 85vh;
+  overflow: scroll;
+  height: 95vh;
+}
+
+.p1{
+  font-family:"Simple-Light";
+  font-size: 4vh;
+}
+
+.i1{
+  position: absolute;
+  left:10vh;
+  top:15vh;
+}
+
+.p2{
+  font-family:"Simple-Light";
+  font-size: 5vh;
+}
+
+.i2{
+  position: absolute;
+  left:10vh;
+  top:2vh;
+}
+
+.p3{
+  font-family:"Simple-Light";
+  font-size: 5vh;
+}
+
+.i3{
+  position: absolute;
+  left:10vh;
+  top:2vh;
+}
+
+.p4{
+  font-family:"Simple-Light";
+  font-size: 5vh;
+}
+
+.i4{
+  position: absolute;
+  left:10vh;
+  top:2vh;
+}
+
+
+.title{
+  font-family:"Simple-Bold";
+  position: absolute;
+  left: 10vh;
+  top:3vh;
+}
+
+.p1{
+  display: block;
+}
+.i1{
+  display:block;
+}
+.p2{
+  display:none;
+
+}
+.i2{
+  display: none;
+}
+.p3{
+  display:none;
+
+}
+.i3{
+  display: none;
+}
+.p4{
+  display:none;
+
+}
+.i4{
+  display: none;
+}
+
+
+@media screen and (max-width: 1250px) {
+  body {
+    background-color: #FFFAF0;
+  }
+  .title{
+    font-family:"Simple-Bold";
+    position: absolute;
+    left: 10vh;
+    top:3vh;
+    transform: rotate(270deg);
+  }
+  .frame{
+    position: absolute;
+    left: 90vh;
+    top:0vh;
+    width: 85vh;
+    overflow: scroll;
+    height: 95vh;
+  }
+
+
+.p1{
+  display: none;
+}
+.i1{
+  display: none;
+}
+.p2{
+  font-size: 4vh;
+  display: block;
+}
+.i2{
+  position: absolute;
+  left:13vh;
+  top:2vh;
+  display: block;
+}
+.p3{
+  display: none;
+}
+.i3{
+  display: none;
+}
+.p4{
+  display:none;
+
+}
+.i4{
+  display: none;
+}
+}
+
+@media screen and (max-width: 1150px) {
+  body {
+    background-color: #FFF0F5;
+  }
+  .title{
+    font-size: 2vh;
+    font-family:"Simple-Bold";
+    position: absolute;
+    left: 10vh;
+    top:90vh;
+      transform: rotate(360deg);
+  }
+  .frame{
+    position: absolute;
+    left: 73vh;
+    top:0vh;
+    width: 85vh;
+    overflow: scroll;
+    height: 95vh;
+  }
+  .p1{
+    display: none;
+  }
+  .i1{
+    display: none;
+  }
+  .p2{
+    display: none;
+  }
+  .i2{
+    display: none;
+  }
+  .p3{
+    font-size: 4vh;
+    display: block;
+  }
+  .i3{
+    display: block;
+  }
+  .p4{
+    display:none;
+
+  }
+  .i4{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 950px) {
+  body {
+    background-color: #FFE4E1;
+  }
+  .title{
+    font-size: 3vh;
+    font-family:"Simple-Bold";
+    position: absolute;
+    left: 10vh;
+    top:80vh;
+      transform: rotate(360deg);
+  }
+  .frame{
+    position: absolute;
+    left: 10vh;
+    top:40vh;
+    width: 85vh;
+    overflow: scroll;
+    height: 95vh;
+  }
+  .p1{
+    display: none;
+  }
+  .i1{
+    display: none;
+  }
+  .p2{
+    display: none;
+  }
+  .i2{
+    display: none;
+  }
+  .p3{
+    display: none;
+  }
+  .i3{
+    display: none;
+  }
+  .p4{
+    font-size: 2vh;
+    display:block;
+
+  }
+  .i4{
+    display: block;
+  }
+}
